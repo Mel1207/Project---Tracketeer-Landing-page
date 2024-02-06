@@ -9,12 +9,10 @@ function App() {
     <>
       <Navigation />
       <main>
-        <div className="container">
-          <Header />
-          <Section1 />
-          <Section2 />
-          <Section3 />
-        </div>
+        <Header />
+        <Section1 />
+        <Section2 />
+        <Section3 />
       </main>
     </>
   )
