@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navigation from "./components/Navigation"
 import Section1 from "./components/Section1"
@@ -19,6 +20,7 @@ function App() {
         <Section4 />
         <Section5 />
         <Section6 />
+        <Footer />
       </main>
     </>
   )

@@ -10,6 +10,11 @@ import iconCheck from '../assets/icon-check.svg'
 import article1 from '../assets/article-1.png'
 import article2 from '../assets/article-2.png'
 import article3 from '../assets/article-3.png'
+import iconFacebook from '../assets/icon-facebook.svg'
+import iconGmail from '../assets/icon-gmail.svg'
+import iconLinkedin from '../assets/icon-linkedin.svg'
+import iconTwitter from '../assets/icon-twitter.svg'
+import iconYoutube from '../assets/icon-youtube.svg'
 
 export const organizations = [
   { 
@@ -135,4 +140,111 @@ export const articles = [
     date: 'January 10, 2024',
     link: '/article1'
   },
+]
+
+export const footerLogos = [
+  {
+    id: 1, 
+    title: 'facebook',
+    iconSrc: iconFacebook,
+    linkPath: '/facebook'
+  },
+  {
+    id: 2, 
+    title: 'gmail',
+    iconSrc: iconGmail,
+    linkPath: '/facebook'
+  },
+  {
+    id: 3, 
+    title: 'linkedin',
+    iconSrc: iconLinkedin,
+    linkPath: '/facebook'
+  },
+  {
+    id: 4, 
+    title: 'twitter',
+    iconSrc: iconTwitter,
+    linkPath: '/facebook'
+  },
+  {
+    id: 5, 
+    title: 'youtube',
+    iconSrc: iconYoutube,
+    linkPath: '/facebook'
+  }
+]
+
+export const fnavigation = [
+  {
+    id: 1, 
+    linkSrc: '/home',
+    title: 'Home'
+  },
+  {
+    id: 2, 
+    linkSrc: '/home',
+    title: 'About'
+  },
+  {
+    id: 3, 
+    linkSrc: '/home',
+    title: 'Features'
+  },
+  {
+    id: 4, 
+    linkSrc: '/home',
+    title: 'Contacts'
+  }
+]
+
+export const fcommunity = [
+  {
+    id: 1, 
+    linkSrc: '/home',
+    title: 'Articles'
+  },
+  {
+    id: 2, 
+    linkSrc: '/home',
+    title: 'Discord'
+  },
+  {
+    id: 3, 
+    linkSrc: '/home',
+    title: 'Youtube'
+  },
+  {
+    id: 4, 
+    linkSrc: '/home',
+    title: 'Testimonials'
+  },
+  {
+    id: 5, 
+    linkSrc: '/home',
+    title: 'Sponsors'
+  }
+]
+
+export const flegal = [
+  {
+    id: 1, 
+    linkSrc: '/home',
+    title: 'Privacy Policy'
+  },
+  {
+    id: 2, 
+    linkSrc: '/home',
+    title: 'Terms of use'
+  },
+  {
+    id: 3, 
+    linkSrc: '/home',
+    title: 'Legal notice'
+  },
+  {
+    id: 4, 
+    linkSrc: '/home',
+    title: 'Feedback'
+  }
 ]
