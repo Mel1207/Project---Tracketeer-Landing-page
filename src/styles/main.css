@@ -112,6 +112,10 @@ button, .btn {
   box-shadow: 0px 4px 10px 0px rgba(31, 80, 255, 0.35);
   -webkit-box-shadow: 0px 4px 10px 0px rgba(31, 80, 255, 0.35);
   -moz-box-shadow: 0px 4px 10px 0px rgba(31, 80, 255, 0.35);
+  transition: all 0.3s;
+}
+.header .header-bottom .income-card:hover {
+  transform: scale(1.05);
 }
 .header .header-bottom .layer-1 {
   position: absolute;
@@ -124,6 +128,47 @@ button, .btn {
   right: -15%;
   bottom: -60%;
   z-index: -1;
+}
+
+.section-header {
+  margin-bottom: 45px;
+}
+.section-header .section-sub {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 15px;
+  border-radius: 100px;
+  display: block;
+  width: max-content;
+  text-transform: capitalize;
+}
+.section-header .theme-blue {
+  color: #1F50FF;
+  background: rgba(31, 80, 255, 0.1);
+}
+.section-header .theme-green {
+  color: #0BBE7E;
+  background: rgba(11, 190, 126, 0.1);
+}
+.section-header .theme-red {
+  color: #FF5271;
+  background: rgba(255, 82, 113, 0.1);
+}
+.section-header .theme-white {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.section-header .section-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1E1E1E;
+  margin-top: 15px;
+  margin-bottom: 18px;
+}
+.section-header p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 *, html {
@@ -209,6 +254,25 @@ main {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+.section-2 .ly-center {
+  text-align: center;
+}
+.section-2 .ly-center .section-sub {
+  margin: auto;
+}
+.section-2 .ly-left {
+  text-align: left;
+}
+.section-2 .ly-right {
+  text-align: right;
+}
+.section-2 .ly-right .section-sub {
+  margin-left: auto;
+}
+
+.section-3 {
+  padding: 100px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
