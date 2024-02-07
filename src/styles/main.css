@@ -486,4 +486,38 @@ footer {
   margin-top: 80px;
 }
 
+@media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .header br {
+    display: none;
+  }
+  .header p {
+    font-size: 14px;
+  }
+  .header .header-cta {
+    flex-direction: column;
+  }
+  .header .header-cta .btn-md {
+    width: 100%;
+  }
+  .header .header-bottom img.desktop {
+    width: 100%;
+  }
+  .section-2 .features {
+    grid-template-columns: 1fr;
+  }
+  .section-header br {
+    display: none;
+  }
+  .articles {
+    grid-template-columns: 1fr;
+  }
+  .section-6 .laptop {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
