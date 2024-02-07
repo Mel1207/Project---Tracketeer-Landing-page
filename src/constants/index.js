@@ -7,6 +7,9 @@ import feature1 from '../assets/icon-transactions.svg'
 import feature2 from '../assets/icon-calculator.svg'
 import feature3 from '../assets/icon-file.svg'
 import iconCheck from '../assets/icon-check.svg'
+import article1 from '../assets/article-1.png'
+import article2 from '../assets/article-2.png'
+import article3 from '../assets/article-3.png'
 
 export const organizations = [
   { 
@@ -108,4 +111,28 @@ export const benefits = [
       }
     ]
   }
+]
+
+export const articles = [
+  {
+    id: 1, 
+    imgSrc: article1,
+    title: 'Find ways to cut spending',
+    date: 'January 10, 2024',
+    link: '/article1'
+  },
+  {
+    id: 2, 
+    imgSrc: article2,
+    title: 'Determine your financial priorities',
+    date: 'January 10, 2024',
+    link: '/article1'
+  },
+  {
+    id: 3, 
+    imgSrc: article3,
+    title: 'How to automate your savings',
+    date: 'January 10, 2024',
+    link: '/article1'
+  },
 ]
