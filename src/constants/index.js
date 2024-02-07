@@ -15,6 +15,12 @@ import iconGmail from '../assets/icon-gmail.svg'
 import iconLinkedin from '../assets/icon-linkedin.svg'
 import iconTwitter from '../assets/icon-twitter.svg'
 import iconYoutube from '../assets/icon-youtube.svg'
+import avatar1 from '../assets/avatar1.jpg'
+import avatar2 from '../assets/avatar2.jpg'
+import avatar3 from '../assets/avatar3.jpg'
+import avatar4 from '../assets/avatar4.jpg'
+import avatar5 from '../assets/avatar5.jpg'
+import avatar6 from '../assets/avatar6.jpg'
 
 export const organizations = [
   { 
@@ -247,4 +253,49 @@ export const flegal = [
     linkSrc: '/home',
     title: 'Feedback'
   }
+]
+
+export const testimonialsRow1 = [
+  {
+    id: 1, 
+    cardText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys. Ipsum is simply dummy text of the printing and typesetting industry.',
+    cardAvatar: avatar1,
+    clientName: 'Gwen Dela Cruz',
+    clientPosition: 'Web developer'
+  },
+  {
+    id: 2, 
+    cardText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys. Ipsum is simply dummy text of the printing and typesetting industry.',
+    cardAvatar: avatar2,
+    clientName: 'Mel Pualon',
+    clientPosition: 'Senior Developer'
+  },
+  {
+    id: 3, 
+    cardText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys. Ipsum is simply dummy text of the printing and typesetting industry.',
+    cardAvatar: avatar3,
+    clientName: 'Jane Doe',
+    clientPosition: 'Accounting officer'
+  },
+  {
+    id: 4, 
+    cardText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys. Ipsum is simply dummy text of the printing and typesetting industry.',
+    cardAvatar: avatar4,
+    clientName: 'Sheela Omen',
+    clientPosition: 'QA Engineer'
+  },
+  {
+    id: 5, 
+    cardText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys. Ipsum is simply dummy text of the printing and typesetting industry.',
+    cardAvatar: avatar5,
+    clientName: 'Jane Doe',
+    clientPosition: 'HR officer'
+  },
+  {
+    id: 6, 
+    cardText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys. Ipsum is simply dummy text of the printing and typesetting industry.',
+    cardAvatar: avatar6,
+    clientName: 'Luis Sentavo',
+    clientPosition: 'CEO developer'
+  },
 ]
