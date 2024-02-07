@@ -34,6 +34,21 @@ main
 .text-blue 
   color: $cBlue
 
+.ly-center 
+  text-align: center 
+
+  .section-sub 
+    margin: auto
+
+.ly-left
+  text-align: left
+
+.ly-right
+  text-align: right
+
+  .section-sub 
+    margin-left: auto
+
 // SECTION 1
 .section-1 
   padding: 80px 0
@@ -75,25 +90,36 @@ main
       margin-top: 10px
       margin-bottom: 15px
 
-  .ly-center 
-    text-align: center 
-
-    .section-sub 
-      margin: auto
-
-  .ly-left
-    text-align: left
-
-  .ly-right
-    text-align: right
-
-    .section-sub 
-      margin-left: auto
-
 // SECTION 3
 .section-3 
-  padding: 100px 0
+  margin-top: -100px
+  .container 
+    display: grid
+    grid-template-columns: 1fr 1fr
+    align-items: center
+
+    .section-right
+      width: 150%
+      transform: translateX(-100px)
+
+  .benefits
+    display: flex
+    gap: 40px
+
+    ul 
+      li 
+        margin-bottom: 10px
+        display: flex 
+        gap: 10px
+        align-items: center
+        font-size: 14px
+
+        img 
+          height: 25px
+          width: 25px
 
 // SECTION 4
+.section-4 
+  margin-top: -100px
 
 // SECTION 5

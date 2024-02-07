@@ -215,6 +215,24 @@ main {
   color: #1F50FF;
 }
 
+.ly-center {
+  text-align: center;
+}
+.ly-center .section-sub {
+  margin: auto;
+}
+
+.ly-left {
+  text-align: left;
+}
+
+.ly-right {
+  text-align: right;
+}
+.ly-right .section-sub {
+  margin-left: auto;
+}
+
 .section-1 {
   padding: 80px 0;
 }
@@ -255,24 +273,37 @@ main {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.section-2 .ly-center {
-  text-align: center;
-}
-.section-2 .ly-center .section-sub {
-  margin: auto;
-}
-.section-2 .ly-left {
-  text-align: left;
-}
-.section-2 .ly-right {
-  text-align: right;
-}
-.section-2 .ly-right .section-sub {
-  margin-left: auto;
-}
 
 .section-3 {
-  padding: 100px 0;
+  margin-top: -100px;
+}
+.section-3 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.section-3 .container .section-right {
+  width: 150%;
+  transform: translateX(-100px);
+}
+.section-3 .benefits {
+  display: flex;
+  gap: 40px;
+}
+.section-3 .benefits ul li {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+}
+.section-3 .benefits ul li img {
+  height: 25px;
+  width: 25px;
+}
+
+.section-4 {
+  margin-top: -100px;
 }
 
 /*# sourceMappingURL=main.css.map */
